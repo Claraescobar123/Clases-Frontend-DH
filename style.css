@@ -1,0 +1,82 @@
+
+body {
+    background-color: #E5E5E5;
+}
+header {
+    text-align: center;
+    background-color: #E5E5E5;
+    padding-bottom: 8px;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 29.64px;
+    font-style: normal;
+    text-align: center;
+    color: #005677;
+    background-color: #C4C4C4;
+    margin: 0%;
+    letter-spacing: 5px;
+}
+.seccionVacia {
+    background-color: white;
+    padding: 50px;
+    margin: 0%;
+}
+.tituloh2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: #005677;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+    background-color: #C4C4C4;
+    padding: 5px;
+    margin: 0%;
+    letter-spacing: 5px;
+}
+.bold {
+    font-style: italic;
+    font-weight: bold;
+}
+.datosPersonales {
+    background-color: white;
+    font-size: 15px;
+    padding-bottom: 5px;
+}    
+.bold1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.experienciaLaboral {
+    background-color: white;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.texto-secun {
+    padding-left: 35px;
+}
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+footer span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footers {
+    text-align: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background-color: #005677;
+    color: white;
+}
+.footers img {
+    text-align: center;
+    padding-left: 26px;
+    width: 20px;
+    height: 20px;
+}

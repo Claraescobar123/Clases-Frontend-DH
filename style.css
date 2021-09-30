@@ -1,23 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
+*{
+    box-sizing: border-box;
+}
 body {
     background-color: #E5E5E5;
+    font-family:'Baloo 2', cursive;
 }
 header {
+    width: 100%;
+    background-image: url('images/Logo_Avengers.png');
     text-align: center;
-    background-color: #E5E5E5;
-    padding-bottom: 8px;
+    background-attachment: fixed;
+    padding:20px;
+}
+header img{
+    width: 150px;
+    height: auto;
+}
+.menu{
+    width: 30px;
+    height: auto;
+    position:absolute;
+    margin-left: 50%;
+
 }
 h1 {
-    font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
     font-size: 35px;
     line-height: 29.64px;
     font-style: normal;
     text-align: center;
-    color: #005677;
-    background-color: #C4C4C4;
+    color: #b97d10;
+    background-color:#4b0908;
     margin: 0%;
     letter-spacing: 5px;
+    padding:15px;
 }
 .seccionVacia {
     background-color: white;
@@ -25,16 +43,16 @@ h1 {
     margin: 0%;
 }
 .tituloh2 {
-    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
-    color: #005677;
+    color: #b97d10;
     font-weight: bold;
     font-size: 20px;
     line-height: 84.69%;
-    background-color: #C4C4C4;
+    background-color: #4b0908;
     padding: 5px;
     margin: 0%;
     letter-spacing: 5px;
+    padding:15px;
 }
 .bold {
     font-style: italic;
@@ -46,7 +64,6 @@ h1 {
     padding-bottom: 5px;
 }    
 .bold1 {
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 .experienciaLaboral {
@@ -57,8 +74,15 @@ h1 {
 .texto-secun {
     padding-left: 35px;
 }
+.divPhoto{
+    text-align: center;
+}
+.photo-tony{
+
+    width:1000px;
+    height: 800px;
+}
 span {
-    font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 15px;
 }
@@ -66,17 +90,20 @@ footer span {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
+    margin-left: 10px;
 }
 .footers {
     text-align: center;
     padding-bottom: 4px;
     padding-top: 4px;
-    background-color: #005677;
-    color: white;
+    background-color: #b97d10;
+    color:black;
 }
 .footers img {
     text-align: center;
-    padding-left: 26px;
-    width: 20px;
-    height: 20px;
+    margin-top:5px;
+    margin-left: 10px;
+    width: 25px;
+    height: auto;
+    
 }

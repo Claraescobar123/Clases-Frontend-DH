@@ -1,109 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
 
-*{
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Encode Sans', sans-serif;
 }
-body {
-    background-color: #E5E5E5;
-    font-family:'Baloo 2', cursive;
-}
+
 header {
-    width: 100%;
-    background-image: url('images/Logo_Avengers.png');
-    text-align: center;
-    background-attachment: fixed;
-    padding:20px;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
 }
-header img{
-    width: 150px;
-    height: auto;
+
+main{
+  display: inline-block;
+  width:100%;
+  height:600px;
 }
-.menu{
-    width: 30px;
-    height: auto;
-    position:absolute;
-    margin-left: 50%;
+
+.header-descuentos {
+  width: 100%;
+  height: 38px;
+  background-color: #1cd1b0;
+  padding: 10px;
+}
+.header-heroes {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 101px;
+  background-color: #00669f;
+  padding: 20px;
+  font-size: 40px;
+}
+.primer-div {
+  position: relative;
+  top:40%;
+  width: 300px;
+  height: 550px;
+  left: 10%;
+  border-radius: 15px 15px 0 0;
+  background-color: #f3f3f3;
 
 }
-h1 {
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 29.64px;
-    font-style: normal;
-    text-align: center;
-    color: #b97d10;
-    background-color:#4b0908;
-    margin: 0%;
-    letter-spacing: 5px;
-    padding:15px;
-}
-.seccionVacia {
-    background-color: white;
-    padding: 50px;
-    margin: 0%;
-}
-.tituloh2 {
-    font-style: normal;
-    color: #b97d10;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 84.69%;
-    background-color: #4b0908;
-    padding: 5px;
-    margin: 0%;
-    letter-spacing: 5px;
-    padding:15px;
-}
-.bold {
-    font-style: italic;
-    font-weight: bold;
-}
-.datosPersonales {
-    background-color: white;
-    font-size: 15px;
-    padding-bottom: 5px;
-}    
-.bold1 {
-    font-weight: bold;
-}
-.experienciaLaboral {
-    background-color: white;
-    font-size: 15px;
-    padding-bottom: 50px;
-}
-.texto-secun {
-    padding-left: 35px;
-}
-.divPhoto{
-    text-align: center;
-}
-.photo-tony{
 
-    width:1000px;
-    height: 800px;
+.img-fondo {
+  z-index: 6;
+  position: relative;
+
 }
-span {
-    font-weight: 400;
-    font-size: 15px;
+
+.img-like {
+  z-index: 8;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
-footer span {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    margin-left: 10px;
+.img-heroe {
+  z-index: 7;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  border-radius: 50%;
 }
-.footers {
-    text-align: center;
-    padding-bottom: 4px;
-    padding-top: 4px;
-    background-color: #b97d10;
-    color:black;
+h2,
+p {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  padding: 10px;
 }
-.footers img {
-    text-align: center;
-    margin-top:5px;
-    margin-left: 10px;
-    width: 25px;
-    height: auto;
-    
+
+.img-boton {
+  width: 130px;
+  height: 50px;
+  margin-top: 100px;
+  margin-left: 85px;
 }
+
+.segundo-div {
+  
+  position: relative;
+  width: 300px;
+  height: 550px;
+  left: 550px;
+  bottom: 310px;
+  border-radius: 15px 15px 0 0;
+  background-color: #f3f3f3;
+}
+.tercer-div {
+  position: relative;
+  width: 300px;
+  height: 550px;
+  left: 1000px;
+  bottom: 857px;
+  border-radius: 15px 15px 0 0;
+  background-color: #f3f3f3;
+}
+
+.img-gatubela{
+  z-index: 7;
+  position: absolute;
+  width: 40%;
+  height:24%;
+  top: 25%;
+  left: 30%;
+  border-radius: 50%;
+
+}
+.img-fondo-gatubela{
+  width: 300px;
+  height: 190px;
+  border-radius: 15px 15px 0 0;
+
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #00669f;
+  color: white;
+  padding: 10px;
+  z-index: 10;
+}
+
